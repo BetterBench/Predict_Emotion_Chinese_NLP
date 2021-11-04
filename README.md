@@ -10,7 +10,7 @@
 
 要求根据历史对话，预测最后一个句子的情感。总共有6类情感。
 
-![question](/home/mgege007/Desktop/img/question.jpg)
+![question](https://imgtu.com/i/Im0Lxx)
 
 # 2 项目结构
 
