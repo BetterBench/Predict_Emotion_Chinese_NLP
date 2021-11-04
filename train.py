@@ -38,7 +38,8 @@ for i, (train_fold, validate) in enumerate(kf):
     )
     model.fit(X_train, label_train)
     y_prd= model.predict(X_validate,)
-    score = accuracy_score(label_validate, y_prd)
+    result = np.argmax(y_prd, axis=1)
+    score = accuracy_score(label_validate, result)
     print('score ={}'.format(score))
 
 
